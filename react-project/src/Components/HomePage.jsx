@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 
 export default function HomePage() {
     return <>
+      <Link to="/"></Link>
         <Box maxW='100%' height="70vh" bg="#f2f2f2">
           <HStack>
             <Spacer/>
@@ -26,7 +27,7 @@ export default function HomePage() {
             <Box border="0px solid green" w="50%" h="80%">
                 <Link to="/items">
                   <Image src="https://api.dominos.co.in/prod-olo-api/images/flashBanner/dominos_adaptation_desktop.jpg" alt="Poster" h="100%"/>
-                </Link>
+                </Link>                
             </Box>
           </HStack>
         </Box>
@@ -62,7 +63,7 @@ export default function HomePage() {
               </Box>
             </HStack>
           </Box>
-          <Box bg="black" h="9vh" color="white">
+          <Box bg="#1a2735" h="9vh" color="white" borderWidth="1px 0 0 0">
             <Text fontSize="sm">All Rights Reserved. Copyright © Jubilant FoodWorks Ltd.</Text>
           </Box>
     </>
